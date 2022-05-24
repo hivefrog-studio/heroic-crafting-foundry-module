@@ -57,5 +57,8 @@
 	  "package": "heroic-crafting",
 	  "private": false
   }
-  ]
+  ],
+  "url": "https://github.com/gatesofadventurecards/heroic-crafting-foundry-module",
+  "manifest": "https://raw.githubusercontent.com/gatesofadventurecards/heroic-crafting-foundry-module/master/module.json",
+  "download": "https://github.com/gatesofadventurecards/heroic-crafting-foundry-module/archive/refs/heads/master.zip"
 }
