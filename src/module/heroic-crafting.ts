@@ -40,4 +40,18 @@ Hooks.once('ready', async () => {
   // Do anything once the module is ready
 });
 
-// Add any additional hooks if necessary
+Hooks.on('renderActorSheet', (app: ActorSheet, html: JQuery<HTMLElement>) => {
+  if (app.actor.type !== 'character') {
+    return;
+  }
+
+  if (!(game instanceof Game)) {
+    throw new Error('game is not initialized yet!');
+  }
+  renderProjectPage();
+  //html.find('.known-formulas').find('.formula-item').find('.item-control[title="Craft"]').replaceWith("<p>Test</p>");
+});
+
+function renderProjectPage() {
+  console.log('bleh');
+}
