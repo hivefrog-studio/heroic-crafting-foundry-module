@@ -3,7 +3,7 @@
   "title": "Heroic Crafting",
   "description": "Heroic Crafting rules, but now its a Foundry Module",
   "author": "HiveFrogStudio",
-  "version": "1.0",
+  "version": "1.0.1",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "packs": [],
@@ -13,7 +13,7 @@
   "minimumSystemVersion": "3.10",
   "packs": [
   {
-	  "label": "Vehicles",
+	  "label": "Heroic Crafting Vehicles",
 	  "type": "Actor",
 	  "name": "vehicles",
 	  "path": "./packs/vehicles.db",
@@ -22,7 +22,7 @@
 	  "private": false
   },
   {
-	  "label": "Feats",
+	  "label": "Heroic Crafting Feats",
 	  "type": "Item",
 	  "name": "feats",
 	  "path": "./packs/feats.db",
@@ -31,7 +31,7 @@
 	  "private": false
   },
   {
-	  "label": "Items",
+	  "label": "Heroic Crafting Items",
 	  "type": "Item",
 	  "name": "items",
 	  "path": "./packs/items.db",
@@ -40,7 +40,7 @@
 	  "private": false
   },
   {
-	  "label": "Actions",
+	  "label": "Heroic Crafting Actions",
 	  "type": "Item",
 	  "name": "actions",
 	  "path": "./packs/actions.db",
@@ -49,7 +49,7 @@
 	  "private": false
   },
   {
-	  "label": "Tables",
+	  "label": "Heroic Crafting Tables",
 	  "type": "JournalEntry",
 	  "name": "tables",
 	  "path": "./packs/tables.db",
