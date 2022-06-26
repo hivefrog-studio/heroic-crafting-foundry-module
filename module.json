@@ -2,7 +2,7 @@
   "name": "heroic-crafting",
   "title": "Heroic Crafting",
   "description": "Heroic Crafting rules, but now its a Foundry Module",
-  "author": "HFS",
+  "author": "HiveFrogStudio",
   "version": "1.0",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
@@ -58,7 +58,7 @@
 	  "private": false
   }
   ],
-  "url": "https://github.com/gatesofadventurecards/heroic-crafting-foundry-module",
-  "manifest": "https://raw.githubusercontent.com/gatesofadventurecards/heroic-crafting-foundry-module/master/module.json",
-  "download": "https://github.com/gatesofadventurecards/heroic-crafting-foundry-module/archive/refs/heads/master.zip"
+  "url": "https://github.com/hivefrog-studio/heroic-crafting-foundry-module",
+  "manifest": "https://raw.githubusercontent.com/hivefrog-studio/heroic-crafting-foundry-module/master/module.json",
+  "download": "https://github.com/hivefrog-studio/heroic-crafting-foundry-module/archive/refs/heads/master.zip"
 }
