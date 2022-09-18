@@ -4,8 +4,8 @@
   "description": "Heroic Crafting rules, but now its a Foundry Module",
   "author": "HiveFrogStudio",
   "version": "1.0.1",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
   "system": [
     "pf2e"
   ],
