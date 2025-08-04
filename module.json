@@ -1,63 +1,79 @@
 {
-  "name": "heroic-crafting",
   "title": "Heroic Crafting",
   "description": "Heroic Crafting rules, but now its a Foundry Module",
-  "author": "HiveFrogStudio",
-  "version": "1.0.1",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "10",
-  "system": [
-    "pf2e"
-  ],
-  "minimumSystemVersion": "3.10",
+  "version": "1.1.0",
   "packs": [
-  {
-	  "label": "Heroic Crafting Vehicles",
-	  "type": "Actor",
-	  "name": "vehicles",
-	  "path": "./packs/vehicles.db",
-	  "system": "pf2e",
-	  "package": "heroic-crafting",
-	  "private": false
-  },
-  {
-	  "label": "Heroic Crafting Feats",
-	  "type": "Item",
-	  "name": "feats",
-	  "path": "./packs/feats.db",
-	  "system": "pf2e",
-	  "package": "heroic-crafting",
-	  "private": false
-  },
-  {
-	  "label": "Heroic Crafting Items",
-	  "type": "Item",
-	  "name": "items",
-	  "path": "./packs/items.db",
-	  "system": "pf2e",
-	  "package": "heroic-crafting",
-	  "private": false
-  },
-  {
-	  "label": "Heroic Crafting Actions",
-	  "type": "Item",
-	  "name": "actions",
-	  "path": "./packs/actions.db",
-	  "system": "pf2e",
-	  "package": "heroic-crafting",
-	  "private": false
-  },
-  {
-	  "label": "Heroic Crafting Tables",
-	  "type": "JournalEntry",
-	  "name": "tables",
-	  "path": "./packs/tables.db",
-	  "system": "pf2e",
-	  "package": "heroic-crafting",
-	  "private": false
-  }
+    {
+      "name": "vehicles",
+      "label": "Heroic Crafting Vehicles",
+      "path": "packs/vehicles",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Heroic Crafting Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Heroic Crafting Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actions",
+      "label": "Heroic Crafting Actions",
+      "path": "packs/actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Heroic Crafting Tables",
+      "path": "packs/tables",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
   ],
   "url": "https://github.com/hivefrog-studio/heroic-crafting-foundry-module",
   "manifest": "https://raw.githubusercontent.com/hivefrog-studio/heroic-crafting-foundry-module/master/module.json",
-  "download": "https://github.com/hivefrog-studio/heroic-crafting-foundry-module/archive/refs/heads/master.zip"
+  "download": "https://github.com/hivefrog-studio/heroic-crafting-foundry-module/archive/refs/heads/master.zip",
+  "id": "heroic-crafting",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  }
 }
