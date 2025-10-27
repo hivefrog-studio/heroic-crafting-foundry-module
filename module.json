@@ -1,66 +1,79 @@
 {
-        "authors": [
-                {
-                        "name": "hive-frog-studio"
-                }
-        ],
-        "compatibility": {
-                "minimum": "10",
-                "verified": "11"
-        },
-        "description": "Heroic Crafting rules, but now its a Foundry Module",
-        "id": "heroic-crafting",
-        "packs": [
-                {
-                        "label": "Heroic Crafting Vehicles",
-                        "name": "vehicles",
-                        "path": "packs/heroic-crafting-vehicles",
-                        "system": "pf2e",
-                        "type": "Actor"
-                },
-                {
-                        "label": "Heroic Crafting Feats",
-                        "name": "feats",
-                        "path": "packs/heroic-crafting-feats",
-                        "system": "pf2e",
-                        "type": "Item"
-                },
-                {
-                        "label": "Heroic Crafting Items",
-                        "name": "items",
-                        "path": "packs/heroics-crafting-items",
-                        "system": "pf2e",
-                        "type": "Item"
-                },
-                {
-                        "label": "Heroic Crafting Actions",
-                        "name": "actions",
-                        "path": "packs/heroic-crafting-actions",
-                        "system": "pf2e",
-                        "type": "Item"
-                },
-                {
-                        "label": "Heroic Crafting Tables",
-                        "name": "tables",
-                        "path": "packs/heroic-crafting-tables",
-                        "system": "pf2e",
-                        "type": "JournalEntry"
-                }
-        ],
-        "relationships": {
-                "requires": [],
-                "systems": [
-                        {
-                                "compatibility": {
-                                        "minimum": "7.0.5",
-                                        "verified": "7.4.3"
-                                },
-                                "id": "pf2e",
-                                "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-                                "type": "system"
-                        }
-                ]
-        },
-        "title": "Heroic Crafting",
-        "version": "1.0.2"
+  "title": "Heroic Crafting",
+  "description": "Heroic Crafting rules, but now its a Foundry Module",
+  "version": "1.1.0",
+  "packs": [
+    {
+      "name": "vehicles",
+      "label": "Heroic Crafting Vehicles",
+      "path": "packs/vehicles",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Heroic Crafting Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Heroic Crafting Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actions",
+      "label": "Heroic Crafting Actions",
+      "path": "packs/actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Heroic Crafting Tables",
+      "path": "packs/tables",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/hivefrog-studio/heroic-crafting-foundry-module",
+  "manifest": "https://raw.githubusercontent.com/hivefrog-studio/heroic-crafting-foundry-module/master/module.json",
+  "download": "https://github.com/hivefrog-studio/heroic-crafting-foundry-module/archive/refs/heads/master.zip",
+  "id": "heroic-crafting",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  }
 }
